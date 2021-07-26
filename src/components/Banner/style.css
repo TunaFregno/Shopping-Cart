@@ -1,0 +1,33 @@
+.bannerBox {
+    width: 90%;
+    height: 50px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid violet; */
+}
+
+.logo {
+    width: 3%;
+    margin-right: 10%;
+    margin-left: 6%;
+}
+
+.checkoutLink {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 2%;
+    color: rgb(59, 59, 59);
+}
+
+.loginLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    border: none;
+    background: none;
+    font-size: 16px;
+    padding-top: 0.4%;
+    cursor: pointer;
+}

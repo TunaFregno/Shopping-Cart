@@ -1,0 +1,73 @@
+.checkoutBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('https://images.unsplash.com/photo-1515511856280-7b23f68d2996?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 5%;
+    color: rgb(59, 59, 59);;
+}
+
+.checkoutBanner {
+    display: flex;
+    align-items: center;
+    
+}
+
+.homeLink {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 2%;
+    color: rgb(255, 255, 255);
+    margin-right: 210%;
+    margin-left: 40%;
+    background-color: rgb(235, 151, 235);
+    padding: 2%;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayCart {
+    width: 96%;
+    background: rgba(255, 254, 254, 0.27);;
+    height: 100%;
+    box-shadow: 1px 4px 20px 3px rgba(0,0,0,0.27);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding: 3%;
+}
+
+
+.checkoutButton {
+    width: 307px;
+    height: 30px;
+    margin-top: 0;
+    margin-left: 40%;
+    border: none;
+    box-shadow: 1px 4px 11px 3px rgba(0,0,0,0.27);
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.checkoutButton:hover {
+    background-color: #7bf1d3;
+    box-shadow: 1px 4px 11px 3px rgba(0,0,0,0.27);
+    transform: translateY(4px);
+    color: white;
+}
+
+.totalBox {
+    background: white;
+    padding: 2%;
+    margin: 2% 0;
+    border: dotted black;
+    margin-left: 40%;
+}
